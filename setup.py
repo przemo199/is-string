@@ -5,12 +5,13 @@ with open("README.md", "r") as fh:
 
 setup(
     name="is_string",
-    version="0.0.2",
+    version="0.0.3",
     author="Przemek Kaminski",
     author_email="przemyslaw.m.kaminski@gmail.com",
     description="A small Python library to determine if something is a string",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    repository="https://github.com/przemo199/is_string",
     packages=find_packages(),
     install_requires=[],
     keywords=["python", "str", "string"],

@@ -13,3 +13,5 @@ Installation
 
 Credits
 ------------
+
+This project was inspired by the work done by Jacob Tomlinson
