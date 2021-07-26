@@ -15,3 +15,4 @@ def test_is_not_string():
     assert not is_string({})
     assert not is_string(int())
     assert not is_string(float())
+    assert not is_string(bool())

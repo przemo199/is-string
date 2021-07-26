@@ -11,7 +11,4 @@ def is_string(arg: any) -> bool:
         bool
             True/False depending on the argument being a string.
         """
-    try:
-        return isinstance(arg, str)
-    except (ValueError, TypeError):
-        return False
+    return isinstance(arg, str)
