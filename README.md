@@ -9,7 +9,7 @@ Installation
 ------------
 
    ```bash
-   pip install is-number
+   pip install is-string
    ```
 
 Credits
