@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="is_string",
-    version="0.0.3",
+    name="is-string",
+    version="0.0.4",
     author="Przemek Kaminski",
     author_email="przemyslaw.m.kaminski@gmail.com",
     description="A small Python library to determine if something is a string",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    repository="https://github.com/przemo199/is_string",
+    url="https://github.com/przemo199/is-string",
     packages=find_packages(),
     install_requires=[],
     keywords=["python", "str", "string"],
