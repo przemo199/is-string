@@ -8,11 +8,30 @@ A small Python library to determine if something is a string
 Installation
 ------------
 
-   ```bash
-   pip install is-string
-   ```
+```bash
+pip install is-string
+```
+
+Usage
+------------
+
+```python
+from is_string import is_string
+
+print(is_string('1')) #true
+print(is_string(1))   #false
+```
+
+or
+
+```python
+import is_string
+
+print(is_string.is_string('1')) #true
+print(is_string.is_string(1))   #false
+```
 
 Credits
 ------------
 
-This project was inspired by the work done by [Jacob Tomlinson](https://github.com/jacobtomlinson), especially a brilliant Python library [is-number](https://github.com/jacobtomlinson/is-number)
+This project was inspired by the work done by [Jacob Tomlinson](https://github.com/jacobtomlinson), especially a brilliant Py

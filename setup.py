@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="is-string",
-    version="0.0.5",
+    version="0.0.6",
     author="Przemek Kaminski",
     author_email="przemyslaw.m.kaminski@gmail.com",
     description="A small Python library to determine if something is a string",
