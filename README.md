@@ -1,6 +1,6 @@
 # is_string
 
-![tests](https://github.com/przemo199/is_string/actions/workflows/ci.yml/badge.svg)
+![tests](https://github.com/przemo199/is_string/actions/workflows/tests.yml/badge.svg)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/is_string)
 
 A small Python library to determine if something is a string
