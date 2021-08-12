@@ -5,21 +5,20 @@
 
 A small Python library to determine if something is a string
 
-Installation
-------------
+## Installation
+
 
 ```bash
 pip install is-string
 ```
 
-Usage
-------------
+## Usage
 
 ```python
 from is_string import is_string
 
-print(is_string('1')) #true
-print(is_string(1))   #false
+print(is_string('1')) #True
+print(is_string(1))   #False
 ```
 
 or
@@ -27,11 +26,10 @@ or
 ```python
 import is_string
 
-print(is_string.is_string('1')) #true
-print(is_string.is_string(1))   #false
+print(is_string.is_string('1')) #True
+print(is_string.is_string(1))   #False
 ```
 
-Credits
-------------
+## Credits
 
-This project was inspired by the work done by [Jacob Tomlinson](https://github.com/jacobtomlinson), especially a brilliant Py
+This project was inspired by the work done by [Jacob Tomlinson](https://github.com/jacobtomlinson), especially the brilliant Python library [is-number](https://github.com/jacobtomlinson/is-number)
